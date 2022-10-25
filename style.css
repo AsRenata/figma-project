@@ -1,0 +1,231 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/*             Homepage        */
+
+/* Background */
+
+div.background.container-fluid.vh-100 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -3;
+}
+div.bg-heading.container-fluid.d-none.d-sm-block {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}
+div.container-fluid.vh-100 {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+div.bg-heading.container-fluid h1 {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 800px;
+  line-height: 869px;
+  margin-right: 300px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.7px white;
+  opacity: 30%;
+}
+/* NavBar */
+.col-md-5 {
+  background-color: #fcca2e;
+  height: 100vh;
+}
+.col-md-7 {
+  background-color: #0c0023;
+  height: 100vh;
+}
+
+nav.navbar {
+  height: 110px;
+}
+
+a.navbar-brand {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  color: #0c0023;
+}
+
+a.nav-link.text-white {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 19px;
+}
+
+header a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+}
+.bi-phone {
+  color: #fcca2e;
+}
+
+.container-fluid {
+  position: relative;
+  top: -100vh;
+}
+img.img-1 {
+  width: 780px;
+  height: 1075px;
+}
+
+div.col-5.d-flex.flex-column.align-items-left.justify-content-center.vh-100 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  border-top: 3px solid #fcca2e;
+  color: #fff;
+  padding-top: 30px;
+}
+
+div.col-5.d-flex.flex-column.align-items-left.justify-content-center.vh-100 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #fff;
+  margin: 50px 0;
+}
+div.col-5.d-flex.flex-column.align-items-left.justify-content-center.vh-100 a {
+  color: #000;
+  background-color: #fcca2e;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px 45px;
+}
+div.col-5.d-flex.flex-column.align-items-left.justify-content-center.vh-100
+  a:hover {
+  background-color: #fff;
+  color: #fcca2e;
+}
+
+/*             About Me        */
+div.about-me.container-fluid {
+  position: static;
+  background-color: #0c0023;
+  height: 60vh;
+  padding-right: calc(var(--bs-gutter-x) * 0);
+  padding-left: calc(var(--bs-gutter-x) * 0);
+}
+
+div.col-md-6 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 40px;
+}
+div.col-md-6 h2 span {
+  color: #fcca2e;
+}
+
+div.col-md-6 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 40px;
+  color: #fcca2e;
+}
+
+div.col-md-6 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+div.btn-video.d-flex.align-items-center a {
+  color: #fcca2e;
+  font-size: 16px;
+}
+div.btn-video.d-flex.align-items-center {
+  color: #fcca2e;
+}
+
+div.col-md-6.ps-5 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+div.me-icons a {
+  color: #fcca2e;
+  margin-right: 20px;
+}
+
+/* Services */
+div.services.container-fluid {
+  position: static;
+  background-color: #0c0023;
+}
+
+div.card img {
+  height: 180px;
+  width: 180px;
+}
+div.card {
+  --bs-card-bg: #0c0023;
+}
+
+h5.card-title {
+  color: #fcca2e;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+div.card a{
+   text-decoration: none;
+   color: #0c0023;
+   background-color: #fcca2e;
+
+}
+
+div.cta.container-fluid
+
+/* md */
+@media only screen and (max-width: 768px) {
+  span.navbar-toggler-icon {
+    color: #fcca2e;
+  }
+}
+
+/* sm */
+@media only screen and (max-width: 540px) {
+  span.navbar-toggler-icon {
+    color: #0c0023;
+  }
+}
